@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>revature</groupId>
-	<artifactId>discovery-service</artifactId>
+	<artifactId>gambit-discovery-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
@@ -39,13 +39,13 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>discovery-service</finalName>
+		<finalName>gambit-discovery-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.revature.discovery.Application</mainClass>
+					<mainClass>com.revature.gambit.discovery.Application</mainClass>
 					<addResources>true</addResources>
 				</configuration>
 				<executions>

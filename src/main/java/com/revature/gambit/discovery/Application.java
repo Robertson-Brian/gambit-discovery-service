@@ -1,4 +1,4 @@
-package com.revature.hydra.discovery;
+package com.revature.gambit.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
