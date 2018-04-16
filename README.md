@@ -1,7 +1,7 @@
-# hydra-discovery-service
+# gambit-discovery-service
 
 
-The discover service for the Hydra project.  
+The discover service for the Gambit project.  
 
 It holds all the routing information for every service in Hydra.  
 
