@@ -1,9 +1,14 @@
+#Service configuration
+spring: 
+  application: 
+    name: gambit-discovery-service
+
+#Server configuration
 server:
   port: 8761
-  
+ 
+#Eureka configuration
 eureka:
   client:
     register-with-eureka: false
-    fetch-registry: false 
-  instance:
-    hostname: localhost 
+    fetch-registry: false
