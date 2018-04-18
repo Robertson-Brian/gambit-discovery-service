@@ -1,7 +1,7 @@
 #Service configuration
 spring: 
   application: 
-    name: gambit-discovery-service
+    name: discovery-service
 
 #Server configuration
 server:
