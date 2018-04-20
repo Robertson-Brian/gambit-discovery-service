@@ -1,0 +1,11 @@
+#Service configuration
+spring: 
+  application: 
+    name: discovery-service
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER_URL}
+
+#Server configuration
+server:
+  port: 8761
