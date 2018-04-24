@@ -1,10 +1,18 @@
-spring: 
-  application: 
-    name: eureka
+#Server Configuration
+server:
+  port: 8761
+
+#Spring Configuration
+spring:
+  application:
+    name: discovery-service
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://localhost:8888/
 
-security:
-  basic:
-    enabled: false
+#Eureka Configuration
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+

@@ -10,22 +10,38 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
+	
 	<parent>
 		<groupId>org.springframework.cloud</groupId>
 		<artifactId>spring-cloud-starter-parent</artifactId>
 		<version>Brixton.RELEASE</version>
 	</parent>
+	
 	<dependencies>
+		
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 		</dependency>
+  
 		<!-- https://mvnrepository.com/artifact/javax.xml/jaxb-api -->
 		<dependency>
 			<groupId>javax.xml</groupId>
 			<artifactId>jaxb-api</artifactId>
 			<version>2.1</version>
 		</dependency>
+        
+        
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        
 		<dependency>
 			<groupId>com.sun.xml.bind</groupId>
 			<artifactId>jaxb-impl</artifactId>
@@ -37,10 +53,15 @@
 			<artifactId>jaxb-core</artifactId>
 			<version>2.2.11</version>
 		</dependency>
+  
 	</dependencies>
+ 
 	<build>
+  
 		<finalName>gambit-discovery-service</finalName>
+  
 		<plugins>
+   
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -56,7 +77,9 @@
 					</execution>
 				</executions>
 			</plugin>
+   
 		</plugins>
+  
 	</build>
 
 </project>
