@@ -20,13 +20,6 @@
 	</properties>
 
 	<dependencies>
-		<!-- DevTools for automatic reload -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		
 		<!-- Eureka Server Dependency -->
 		<dependency>
             <groupId>org.springframework.cloud</groupId>
